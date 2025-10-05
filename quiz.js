@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (userAnswer === correctAnswer) {
             feedback.textContent = "Correct! Well done.";
         } else {
-            feedback.textContent = "Oops! That's not correct.";
+            feedback.textContent = "That's incorrect. Try again!";
         }
     }
 
